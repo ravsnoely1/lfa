@@ -14,9 +14,9 @@ def main():
 
     # Exibir o resultado
     if resultado:
-        print("Sim")
+        print(f"A palavra '{palavra_exemplo}' pertence à linguagem.")
     else:
-        print("Não")
+        print(f"A palavra '{palavra_exemplo}' não pertence à linguagem.")
 
 if __name__ == "__main__":
     main()
