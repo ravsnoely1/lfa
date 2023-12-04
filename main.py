@@ -1,3 +1,4 @@
+from multi_tape_turing_machine import *
 def main():
     # Carregar a especificação da máquina de Turing a partir de um arquivo JSON
     with open('maquina_turing.json', 'r') as file:
